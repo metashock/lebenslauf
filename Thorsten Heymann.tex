@@ -1,0 +1,130 @@
+%
+% Tex document to render my CV
+%
+
+\documentclass[12pt,a4paper,sans]{moderncv}
+\moderncvstyle{casual}
+\moderncvcolor{blue}
+\usepackage[scale=0.75]{geometry}
+\usepackage[utf8]{inputenc}
+
+% You
+\name{Thorsten}{Heymann}
+
+% The title
+\title{Lebenslauf}
+
+% Address information
+\address{Boxhagener Str. 34}{10245 Berlin}
+\phone[mobile]{+49~(179)~244~34~88}
+\phone[fixed]{+49~(30)~53~666~59}
+\email{thorsten@metashock.net}
+\homepage{http://metashock.de}
+\social[github]{metashock}
+\social[stackoverflow]{hek2mgl}
+
+% You, again.
+\photo[64pt][0.4pt]{picture.jpg}
+
+\begin{document}
+	
+	% Render header and footer
+	\makecvtitle
+
+	% You in detail
+	\section{Persönliche Daten}
+	\cvitem{Geburtsdatum}{14.05.1977}
+	\cvitem{Nationalität}{Deutsch}
+	\cvitem{Familienstand}{Ledig}
+
+
+	\vspace{70pt}
+
+
+	% Professional experience
+	\section{Berufliche Erfahrung}
+
+	\cventry{Nov. 2013 - Mai 2014}{DevOps Engineer / Senior Softwareentwickler}{Simplesurance GmbH}{Berlin}{}{Agentur für Online-Produktversicherungen \newline{}%
+    \begin{itemize}
+	\item Entwicklung eines Tools zum automatisierten Deployment einer PHP Symfony2 Anwendung mit Ruby
+	\item Entwicklung von Plugins für verschiedene Web-Shopsoftwares, u.a: Magento, XTC4, Shopware und Oxid.
+	\item Administration von Linux Web- und Datenbankservern (Postgres)
+	\item Entwurf von Vagrant Entwicklungs und Testumgebungungen
+	\item Planung und Durchführung automatisierter Tests
+	\end{itemize}}
+
+	\vspace{5pt}
+	\cventry{Juni 2014 - Nov. 2014}{Senior Softwareentwickler, Freelancer}{Glispa GmbH}{Berlin}{}{Agentur für Online-Marketing \newline{}%
+    \begin{itemize}
+	\item Unterstützung bei der Entwicklung unternehmensinterner Intranetanwendungen auf Basis von PHP, MySQL
+	\item Entwurf einer Test und Entwicklungsumgebung auf Basis von Vagrant
+	\item Planung und Durchführung automatisierter Tests
+	\end{itemize}}
+
+	\vspace{5pt}
+	\cventry{Nov. 2008 - Dez. 2012}{Team Leiter / Senior Softwareentwickler}{Macnetix GmbH}{Berlin}{}{Entwicklung und Instalation von IPTV Anwendungen für öfftl. Einrichtungen wie Krankenhäuser oder Konferenzcenter sowie in der Hotelbranche \newline{}%
+    \begin{itemize}
+	\item Entwicklung eines Linux, Open Source basierten DVB to IPTV Gateway-Servers und einem Webadministrationstool für den Server auf Basis von PHP.
+	\item Entwurf und Entwicklung einer Middlewareanwendung zum Managment von IPTV Netzwerkung. Entwurf anwendungsinterner Schnittstellen sowie Kommunikation, Entwurf und Entwicklung von Schnittstellen zu Drittanbietern und Partnerunternehmen.
+	\item Design und Administration von High-Load Multicast IP Netzwerken
+    \item Als Teamleiter war ich für Organisation der Entwicklungsprozesse sowie für die Kommunikation mit anderen Abteilungen und Kunden zuständig.
+	\end{itemize}}
+
+	\vspace{5pt}
+	\cventry{März 2008 - Aug. 2008}{Softwareentwickler}{Directsmile GmbH}{Berlin}{}{Unternehmen der Online Printing Branche\newline{}%
+    \begin{itemize}
+	\item Entwicklung eines Linux, Open Source basierten DVB to IPTV Gateway-Servers und einem Webadministrationstool für den Server auf Basis von PHP.
+	\end{itemize}}
+
+
+	\vspace{5pt}
+	% Education
+	\section{Ausbildung}
+
+	\cventry{2002--2007}{Diplom (FH) Multimediatechnik}{Fachhochschule Wismar}{Wismar}{}{Thema der Diplomarbeit: Simulation von Vertriebsprozessen in der Bauwirtschaft}
+
+	\cventry{1995--1999}{Stadtinspektor}{Fachhochschule für öffentliche Verwaltung und Rechtspflege}{Güstrow}{}{Duale Ausbildung für höhere Beamtenlaufbahn der Stadtverwaltung}
+
+	\vspace{5pt}
+	\section{Technische Kentnisse}
+	
+	\cvitem{Sprachen:}{PHP,Javascript,Ruby,C/C++,Java,C\#,Shellscripting,Regular Expressions}
+	\cvitem{Markup:}{XPath,XSLT,XML Schema,JSON,YAML}
+	\cvitem{Webservices:}{REST,SOAP,XML-RPC}
+	\cvitem{Datenbanken:}{MySQL,Postgres,SQLite,Informix,Oracle,MongoDB,Redis}
+	\cvitem{Betriebs-systeme:}{Debian/Ubuntu,Fedora,Gentoo}
+	\cvitem{Konzepte:}{Netzwerkprotokolle, Serviceentwicklung und -integration, Automatisierung, Virtualisierung, Softwaretests, Continous Integeration,Objektorientierte Programmierung,Linux- und Netzwerkadministration,Scrum}
+	\cvitem{Tools:}{vim,GNU/Linux,git,Vagrant,chef|puppet,uvm.}
+	\cvitem{Extras:}{Erfahrung im Bereich Video for Linux, IPTV}
+
+	\section{Sprachen}
+
+	\cvitem{Deutsch}{Muttersprache}
+	\cvitem{English}{fließend, mündlich und schriftlich}
+
+	\clearpage
+
+	\recipient{Company Recruitment team}{Company, Inc.\\123 somestreet\\some city}
+	\date{Dienstag, 17. Juni 2014}
+	\opening{Sehr geehrte Damen und Herren,}
+	\closing{Mit freundlichem Gruß}
+	\makelettertitle
+Sehr geehrte Damen und Herren,
+
+hiermit bewerbe ich mich auf ihre Stellenanzeige "Softwareentwickler / Softwarearchitekt (163888)".
+
+Die Anforderungen an die Stelle, sowie die Perspektive in Ihrem renommierten Unternehemen tätig zu sein, haben mich sehr angesprochen. Ich denke, ich kann ihr Unternehmen bereichern, da ich besonders in der Client / Server Entwicklung in verschieden Programmiersprachen und Umgebungen, der Entwicklung und dem Design von SQL Datenbanken sowie den verschiedensten XML Technologien tiefgreifende Erfahrung habe.
+
+Während meiner Tätigkeit bei der Firma Macnetix, habe ich bereits gemeinsam mit Siemens an interessanten Lösungen im Bereich Hospitality (IPTV, Himed) und im Bereich Gebäudeautomatisierung (Bacnet) gearbeitet. Meine Erfahrungen aus diesen Projekten  waren durchweg positiv, auch daher wäre eine Anstellung bei Siemens reizvoll für mich.
+
+Ich hoffe meine Fertigkeiten und Erfahrungen finden ihr Interesse und würde mich sehr über ein persönliches Gespräch freuen.
+
+\vspace{5pt}
+Mit freundlichem Gruß
+
+Thorsten Heymann
+
+
+\end{document}
+
+
