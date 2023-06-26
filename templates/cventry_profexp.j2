@@ -1,0 +1,13 @@
+[% for exp_item in item.experience -%]
+    % [% if exp_item is mapping -%]
+    % \item [[ exp_item.title ]] {
+    % \begin{itemize}
+    %  [% for exp_item_detail in exp_item.details -%]
+    %  \item [[ exp_item_detail ]]
+    %  [% endfor -%]
+    % \end{itemize}}
+    % \vspace{2pt}
+    % [% else -%]
+    \item [[ exp_item ]]
+    % [% endif -%]
+[% endfor -%]

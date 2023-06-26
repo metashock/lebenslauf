@@ -1,0 +1,87 @@
+%
+% Tex document to render my CV
+%
+
+\documentclass[12pt,a4paper,sans]{moderncv}
+\moderncvstyle{classic}
+\moderncvcolor{green}
+\usepackage[scale=0.75]{geometry}
+\usepackage[utf8]{inputenc}
+% \usepackage[ngerman]{babel}
+
+\input{macros.tex}
+
+% You
+\name{[[ data.personal.name.first ]]}{[[ data.personal.name.last ]]}
+
+% The title
+\title{Senior Site Reliability Engineer}
+
+% Address information
+\address{[[ data.personal.address.street ]]}{[[ data.personal.address.zip ]][[ data.personal.address.city ]]}
+\phone[mobile]{+49~(179)~244~34~88}
+\phone[landline]{+49~(30)~530~666~59}
+\email{[[data.personal.email]]}
+\quote{[[ data.quote ]]}
+
+\begin{document}
+    
+    % Render header and footer
+    \makecvtitle
+
+    % Summary
+    \section{[[ translate("section_header: Summary") ]]}
+    {
+        [[ data.summary ]]
+    }
+
+    \vspace{50pt}
+
+    % Professional experience
+    \section{[[ translate("section_header: Professional experience") ]]}
+    [% for item in data.professional_experience -%]
+    \cventrylong{[[item.when]]}{[[item.title]]}{[[item.company]]}{[[item.city]]}{}{
+    \vspace{5pt}
+    \begin{itemize}
+    [% for exp_item in item.experience -%]
+        [% if exp_item is mapping -%]
+        \item [[ exp_item.title ]]{
+            [% if exp_item.details|length and print_details -%]
+            \begin{itemize}
+            [% for exp_item_detail in exp_item.details -%]
+            \item [[ exp_item_detail ]]
+            [% endfor -%]
+            \end{itemize}
+            [% endif -%]}
+        [% else -%]
+        \item [[ exp_item ]]
+        [% endif -%]
+    [% endfor -%]
+    \end{itemize}
+    } 
+    \vspace{10pt}
+    [% endfor -%]
+
+    % Education
+    \section{[[ translate("section_header: Education") ]]}
+      [% for item in data.education %]
+      \cventry{[[item.when]]}{[[item.title]]}{[[item.school]]}{}{}{}
+      \vspace{10pt}
+      [% endfor %]
+
+    \section{[[ translate("section_header: Skills") ]]}
+      [% for item_name in data.skills %]
+      \cvitem{[[ item_name ]]}{
+      \begin{itemize}
+      [% for sub_item in data.skills[item_name] -%]
+        \item{[[sub_item]]}
+      [% endfor -%]
+      \end{itemize}}
+      [% endfor %]
+
+\begin{minipage}[t]{.4\textwidth}
+\end{minipage}\\[2em]
+
+Berlin, \today
+
+\end{document}

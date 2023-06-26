@@ -1,0 +1,65 @@
+personal:
+  name: Thorsten Heymann
+  email: heymann.thorsten@gmail.com
+  phone: +49 30 530 666 59
+  address:
+    street: Boxhagener Str. 34
+    city: Berlin
+    zip: 10245
+    country: Germany
+
+education:
+- title: Diplom Engineer (FH) - Multimedia Technologies
+  school: University of Business and Technology
+  city: Wismar
+  when: 2007
+
+work_experience:
+- city: Berlin
+  company: Strato AG
+  experience:
+  - Administration von Linux und Windows Systemen
+  - Storage Networks
+  - Netzwerkadministration
+  title: System Administrator - Dedicated Hosting
+  when: seit Aug. 2014
+- city: Berlin
+  company: Simplesurance GmbH
+  experience:
+  - title: Created deployment pipeline for the Web application
+    details:
+      - Create multi state environment with Ruby / Capistrano
+      - Run automated tests
+      - Plan and deploy web and database server in the cloud (Amazon, Hetzner)
+  - title: Created on-demand development and test environment
+    details:
+      - Each individual git commmit of application could be accessed directly in the browser
+      - Database and application deployment on demand
+  - "Development of web shop plugins, e.g: Magento, XTC4, Shopware und Oxid"
+  title: DevOps Engineer / Senior Softwareentwickler
+  when: Nov. 2013 - Mai. 2014
+- city: Berlin
+  company: Glispa GmbH
+  experience:
+  - "Unterstützung bei der Entwicklung unternehmensinterner Intranetanwendungen auf Basis von PHP, MySQL"
+  - Entwurf einer Test- und Entwicklungsumgebung auf Basis von Vagrant
+  - "Planung und Durchführung automatisierter Tests"
+  title: Senior Softwareentwickler, Freelancer
+  when: Juni 2013 - Nov. 2013
+- city: Berlin
+  company: Macnetix GmbH
+  experience:
+  - "Entwicklung eines Linux basierten DVB to IPTV Gateway-Servers und einem Webadministrationstool für den Server auf Basis von PHP."
+  - Entwurf und Entwicklung einer Middlewareanwendung zum Managment von IPTV/VOD Netzwerken.
+    Entwurf anwendungsinterner Schnittstellen sowie Kommunikation, Entwurf und Entwicklung
+    von Webserviceanbindungen zu Drittanbietern und Partnerunternehmen.
+  - Design und Administration von High-Load Multicast IP Netzwerken
+  - "Als Teamleiter war ich für Organisation der Entwicklungsprozesse sowie für die Kommunikation mit anderen Abteilungen und Kunden zuständig."
+  title: Team Leiter / Senior Softwareentwickler
+  when: Nov. 2008 - Nov. 2012
+- city: Berlin
+  company: Directsmile GmbH
+  experience:
+  - "Projektbasierte ActionScript Entwicklung für eine interaktive Messeanwendung. Ziel war es, eine Anwendung zu erstellen, die durch grossflächige Videoanimationen auf Benutzereingaben reagiert."
+  title: Softwareentwickler
+  when: "März 2008 - Aug. 2008"

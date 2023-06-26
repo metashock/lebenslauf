@@ -1,0 +1,6 @@
+section_header: Personal Data@@@Personal
+section_header: Professional experience@@@Professional Experience
+section_header: Skills@@@Skills
+section_header: Education@@@Education
+section_header: Summary@@@Summary
+day of birth@@@Day of birth

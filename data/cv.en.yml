@@ -1,0 +1,208 @@
+personal:
+  name:
+    first: Thorsten
+    last: Heymann
+  day_of_birth:
+    day: 14
+    month: 5
+    year: 1977
+  nationality: German
+  email: heymann.thorsten@gmail.com
+  phone: +49 30 530 666 59
+  address:
+    street: Boxhagener Str. 34
+    city: Berlin
+    zip: 10245
+    country: Germany
+
+summary: |
+    ...
+
+education:
+- title: Diplom Engineer (FH) - Multimedia Technologies
+  school: University of Business and Technology Wismar
+  city: Wismar
+  when: "2002-2007"
+
+- title: Administrative Assistant
+  school: University of Applied Sciences for Public Administration, Police, and Judicial Services of the State of Mecklenburg-Vorpommern
+  city: Güstrow
+  when: "1995-1999"
+
+professional_experience:
+- city: Berlin
+  company: Playstation - Sony Interactive Entertainment
+  experience:
+  - title: Summary
+    details:
+    - Large international team across three timezones incl. USA, Australia, Asia and Europe
+    - Worked in cross functional teams
+    - As SRE, our team managed a large technical stack and a huge amount of hosts
+
+  - title: Redesign of legacy on premise provisionining system
+    details:
+    - Significantly reduced execution time, improved scalability
+    - Increased level of automation
+    - Split monolithic process into several independent components
+    - Replaced custom shell code by Ansible playbooks
+    - Rewrote performance critical Python components
+    - Increased parallelism
+    - Coordinated customer migration to new system
+    - Containerized testing environment
+
+  - title: Subject matter expert for on premise provisioning
+    details:
+    - Communicated on a daily basis with team members or leadership as well as with stakeholders
+    - Organized and prepared technical meetings, documents or presentations
+    - Code review
+    - Onboarding of new team members, Mentorship
+
+  - title: Increased level of automation
+    details:
+    - Found environment with low level of automation and many manual tasks
+    - Proposal for company wide automation platform
+    - Through the platform, the level of automation has been increased in several fields
+
+  - title: Development of widely used cli applications for user friendly management of game streaming rack
+
+  - title: Standard Responsibilities of SRE role
+    details:
+    - Participate in SRE oncall rotation, and incident communication/post mortems
+    - Indentify and address problems like software or hardware failure, monitoring or alerting gaps, toil
+    - Communicate solutions with cross functional teams, service owners
+    - Represent SRE team within the infrastructure cross functional team
+  title: Senior Service Reliability Engineer
+  when: "since Apr. 2015"
+
+- city: Berlin
+  company: Strato AG
+  experience:
+  - Responsible for Linux und Windows Systems, Storage Networks and Networking
+  - Monitoring / Alerting based on Nagios
+  - Incident Management
+  - Software Development for Server Management (Perl, Python)
+  title: System Administrator - Dedicated Hosting
+  when: "Aug. 2014 - Feb. 2015"
+
+- city: Berlin
+  company: Simplesurance GmbH
+  experience:
+  - title: Deployment pipeline for the Web application
+    details:
+      - Created multi state environment with Ruby / Capistrano
+      - Worked on test automation
+      - Planned and deployed web and database server in the cloud (Amazon, Hetzner)
+  - title: On-demand development and test environment
+    details:
+      - Each individual git commmit of application could be accessed directly in the browser
+      - Database and application deployment on demand
+  - "Development of web shop plugins, e.g: Magento, XTC4, Shopware und Oxid"
+  title: DevOps Engineer
+  when: "Nov. 2013 - May 2014"
+
+- city: Berlin
+  company: Glispa GmbH
+  experience:
+  - Created Software Modules for intranet application (MySQL, PHP)
+  - Planing and implementation of automated tests"
+  title: Senior Software Developer
+  when: "June 2013 - Nov. 2013"
+
+- city: Berlin
+  company: Macnetix GmbH
+  experience:
+  - title: Software design and development of a middleware application for management of IPTV/VOD applications
+    details:
+      - Full stack development with PHP, Javascript (Admin Frontend), Linux shell scripts, C/C++
+      - Understanding and implementation of DVB and other open standards for media streaming
+      - Design of a XML based API interface to our middleware
+      - Integration of 3rd party software on customer site
+  - title: Team Lead
+    details:
+      - Daily communication with the local software development team as well as customers and executives
+      - Organize software design and planning of work with the team
+      - Define goals and tasks with each individual team member
+      - Organized trainee program
+  title: Team Leader / Senior Software Developer
+  when: "Nov. 2008 - Nov. 2012"
+
+- city: Berlin
+  company: Directsmile GmbH
+  experience:
+  - title: Developed interactive video wall application with Flash/ActionScript
+    details:
+    - highly performance critical application, required optimized code for fluent processing of user input
+  title: Software Developer
+  when: "Mar. 2008 - Aug. 2008"
+
+
+skills:
+  Technical Expertise:
+    - Software Development
+    - Infrastructure as Code
+    - Platform Architecture
+    - Monitoring / Alerting
+    - Troubleshooting
+    - Incident management
+    - Root cause analysis
+    - Documentation
+
+  Project Management:
+    - Planning
+    - Risk Management
+    - Stakeholder Communication
+
+  Leadership:
+    - Employee Development / Mentorship
+    - Active Listening
+    - Conflict Resolution
+    - Effective Communication
+    - Change Management
+    - Vision Setting
+    - Team Motivation
+    - Culture Building
+
+  Agile Methods:
+    - Scrum
+    - Software- and Platform Lifecycle Management 
+
+  Quality Assurance and Testing:
+    - Test Strategy
+    - Test Execution
+    - Test Automation
+
+  Code Review:
+    - Peer Review
+    - Best Practices Enforcement / Automation
+    - Mentorship
+
+  Knowledge Management:
+    - Active Listening
+    - Knowledge Sharing
+    - Documentation
+    - Training and Onboarding
+
+  Technological Trends:
+    - Emerging Technologies Research and Evaluation
+    - Integration Strategies
+
+  Communication Skills:
+    - Active Listening
+    - Team Communication
+    - Cross-functional Communication
+    - Written Communication
+    - Presentation
+
+  Resource Management:
+    - Human Resource Allocation 
+    - Equipment and Tools
+    - Capacity Planning
+
+  Data Analysis:
+    - Data Collection and Processing
+    - Visualization
+    - Data driven decisions
+
+  Language Skills:
+    - German (Native)
+    - English (Professional working proficiency)
